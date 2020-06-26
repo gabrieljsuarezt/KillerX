@@ -1,0 +1,214 @@
+/* Globales */
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+
+/* Color de fondo del heading */
+
+.heading-background {
+    background-color: rgba(230, 227, 227, 0.575);
+}
+
+.line-title::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: .3rem;
+    background-color: #000;
+    margin: 1rem 9rem;
+}
+
+
+/* Imagenes mision, visión y objetivos */
+
+.logo-img {
+    width: 10rem;
+    margin: 3rem auto 1rem auto;
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: .3rem;
+    background-color: #000;
+    margin: 1rem auto;
+}
+
+.card-title {
+    padding: 1.8rem;
+    font-size: 1.8rem;
+}
+
+
+/* Background gradient de cards */
+
+.background-vision {
+    background: rgb(240, 182, 50);
+    background: linear-gradient(0deg, rgba(240, 182, 50, 1) 0%, rgba(255, 241, 0, 1) 50%, rgba(240, 182, 50, 1) 100%);
+    -webkit-box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    -moz-box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    height: 40rem;
+}
+
+.background-mision {
+    background: rgb(50, 193, 194);
+    background: linear-gradient(0deg, rgba(50, 193, 194, 1) 0%, rgba(73, 247, 227, 1) 50%, rgba(50, 193, 194, 1) 100%);
+    -webkit-box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    -moz-box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    height: 40rem;
+}
+
+.background-objetivos {
+    background: rgb(40, 200, 0);
+    background: linear-gradient(0deg, rgba(40, 200, 0, 1) 0%, rgba(39, 255, 93, 1) 50%, rgba(40, 200, 0, 1) 100%);
+    -webkit-box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    -moz-box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    box-shadow: 11px 17px 3px -3px rgba(140, 140, 140, 0.39);
+    height: 40rem;
+}
+
+
+/* Footer */
+
+.footer-background-image {
+    z-index: 1;
+    height: 30rem;
+    background-image: url(/img/13184\ 2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1rem 1rem 8rem #000;
+    width: 100%;
+}
+
+.contenido-footer {
+    padding-top: 2rem;
+}
+
+.btn-size {
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+
+/* MEDIA QUERYS */
+
+@media (min-width: 576px) {
+    .line-height {
+        line-height: 1.5;
+    }
+    .card-title {
+        padding: 1.8rem;
+        font-size: 2.5rem;
+    }
+    .btn-size {
+        margin: 5rem;
+        padding: 1rem;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    .img-fluid {
+        object-fit: cover;
+        object-position: -10% 0;
+    }
+    .pd-header {
+        padding: 0 2rem;
+    }
+    .footer-background-image {
+        height: 40rem;
+    }
+    .contenido-footer {
+        padding-top: 3rem;
+    }
+    .line-title::after {
+        margin: 1rem 17rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .line-title::after {
+        margin: 1rem 8rem;
+    }
+    .img-fluid {
+        object-fit: cover;
+        object-position: -10% 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-fluid {
+        object-fit: cover;
+        object-position: -10% 0;
+    }
+    .background-vision {
+        height: 45rem;
+    }
+    .background-mision {
+        height: 50rem;
+    }
+    .background-objetivos {
+        height: 45rem;
+    }
+    .margin-l {
+        margin-right: 0;
+    }
+    .margin-0 {
+        margin: 0 3rem;
+    }
+    .margin-r {
+        margin-left: 0;
+    }
+    .pd-header {
+        padding: 0 4rem;
+    }
+    .line-title::after {
+        content: '';
+        display: block;
+        width: 5rem;
+        height: .3rem;
+        background-color: #000;
+        margin: 1rem 6.5rem;
+    }
+    .footer-background-image {
+        height: 50rem;
+    }
+    .tittle-size {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .line-title::after {
+        margin: 1rem 10rem;
+    }
+    .img-fluid {
+        object-fit: cover;
+        object-position: -10% 0;
+    }
+    .line-height {
+        line-height: 2.2;
+    }
+}
